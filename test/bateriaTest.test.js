@@ -8,7 +8,7 @@ it('deve subtrair dois números', function(){
     expect(calculadora.subtrair(2,2)).toBe(0);
 })
 it('deve somar dois números', function(){
-    expect(calculadora.somar(2,3)).toBe(4);
+    expect(calculadora.somar(2,2)).toBe(4);
 }) 
 it('deve dividir dois números', function(){
     expect(calculadora.dividir(2,2)).toBe(1);
