@@ -1,4 +1,4 @@
-let Calc = require ('./src/mult')// faz a requisição da nossa classe
+let Calc = require ('./src/funcao')// faz a requisição da nossa classe
 describe('Calculadora', function(){// onde vamos fazer a bateria de teste
     let calculadora = new Calc()
 it('deve multiplicar dois números', function(){
