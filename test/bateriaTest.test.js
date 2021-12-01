@@ -11,6 +11,6 @@ it('deve somar dois números', function(){
     expect(calculadora.somar(2,2)).toBe(4);
 }) 
 it('deve dividir dois números', function(){
-    expect(calculadora.dividir(2,2)).toBe(0);
+    expect(calculadora.dividir(2,2)).toBe(1);
 }) 
 })
